@@ -6,12 +6,19 @@ K-Means Clustering and Hierarchical Clustering. The goal is to identify patterns
 Import the necessary libraries to handle data manipulation, visualization, and clustering algorithms.
 
 *import numpy as np
-*import pandas as pd
-*import matplotlib.pyplot as plt
-*import seaborn as sns
-*from sklearn import datasets
-*from sklearn.cluster import KMeans
-*from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
+
+* import pandas as pd
+
+* import matplotlib.pyplot as plt
+
+* import seaborn as sns
+
+* from sklearn import datasets
+
+* from sklearn.cluster import KMeans
+
+* from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
+
 
 Load the Iris dataset from the sklearn library.
 Convert the dataset into a Pandas DataFrame for easier manipulation and analysis then Visualize Data:
