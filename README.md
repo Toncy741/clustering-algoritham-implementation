@@ -24,7 +24,16 @@ Load the Iris dataset from the sklearn library.
 Convert the dataset into a Pandas DataFrame for easier manipulation and analysis then Visualize Data:
 
 Use Seaborn to create a pair plot of the dataset  This helps in understanding the distribution and relationships between the features
-Apply K-Means Clustering:
+Apply K-Means Clustering
+   Includes scaling and handling missing values.
+    Outlier Detection and Removal: Identifies and removes outliers to improve clustering accuracy.
+    Clustering Algorithms:
+        KMeans Clustering: Groups data into clusters based on feature similarity.
+        Hierarchical Clustering: Builds a hierarchy of clusters and visualizes them using a dendrogram.
+    Visualizations:
+        Box plots, 3D scatter plots, and dendrograms for clear data representation.
+        Images of the three Iris species for visual reference.
+
 
 Initialize the K-Means algorithm with the desired number of clusters (in this case, 3)
 Fit the model to the dataset and predict the clusters for each sample.
